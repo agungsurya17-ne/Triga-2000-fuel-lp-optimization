@@ -1,0 +1,3 @@
+# Preserve byte-level release checksums, including archived CSV line endings.
+* -text
+*.png binary

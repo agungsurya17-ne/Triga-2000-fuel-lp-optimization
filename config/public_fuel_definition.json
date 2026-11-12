@@ -1,0 +1,141 @@
+{
+  "dataset_id": "public-fresh-fuel/v1",
+  "reference_seed": 731942,
+  "temperature_K": 300.0,
+  "fuel_types": {
+    "M8": {
+      "density_g_cm3": 5.79875,
+      "mass_weights": {
+        "U235": 38,
+        "U238": 152,
+        "Zr": 2009.76191,
+        "H1": 35.5322
+      },
+      "thermal_scattering": [
+        "c_H_in_ZrH"
+      ]
+    },
+    "M9": {
+      "density_g_cm3": 5.94499,
+      "mass_weights": {
+        "U235": 55,
+        "U238": 220,
+        "Zr": 1981.6318,
+        "H1": 35.03487
+      },
+      "thermal_scattering": [
+        "c_H_in_ZrH"
+      ]
+    },
+    "M10": {
+      "density_g_cm3": 6.40732,
+      "mass_weights": {
+        "U235": 99,
+        "U238": 396,
+        "Zr": 1934.17172,
+        "H1": 34.19578,
+        "Er166": 3.85564,
+        "Er167": 2.66335
+      },
+      "thermal_scattering": [
+        "c_H_in_ZrH"
+      ]
+    }
+  },
+  "structural_materials": {
+    "water": {
+      "density_g_cm3": 0.997,
+      "mass_weights": {
+        "H1": 2.01565006446,
+        "O16": 15.99491461957
+      },
+      "thermal_scattering": [
+        "c_H_in_H2O"
+      ]
+    },
+    "graphite": {
+      "density_g_cm3": 1.7,
+      "mass_weights": {
+        "C0": 1
+      },
+      "thermal_scattering": [
+        "c_Graphite"
+      ]
+    },
+    "ss304": {
+      "density_g_cm3": 8.0,
+      "mass_weights": {
+        "Fe": 70,
+        "Cr": 19,
+        "Ni": 10,
+        "Mn": 1
+      },
+      "thermal_scattering": []
+    },
+    "steel": {
+      "density_g_cm3": 7.85,
+      "mass_weights": {
+        "Fe": 99,
+        "C0": 1
+      },
+      "thermal_scattering": []
+    },
+    "aluminum": {
+      "density_g_cm3": 2.7,
+      "mass_weights": {
+        "Al27": 1
+      },
+      "thermal_scattering": []
+    },
+    "zirconium_rod": {
+      "density_g_cm3": 6.52,
+      "mass_weights": {
+        "Zr": 1
+      },
+      "thermal_scattering": []
+    },
+    "b4c": {
+      "density_g_cm3": 2.52,
+      "mass_weights": {
+        "B": 43.24,
+        "C0": 12.011
+      },
+      "thermal_scattering": []
+    },
+    "concrete": {
+      "density_g_cm3": 2.3,
+      "mass_weights": {
+        "Si": 32,
+        "Ca": 10,
+        "Al": 5,
+        "Fe": 1,
+        "O16": 52
+      },
+      "thermal_scattering": []
+    },
+    "air": {
+      "density_g_cm3": 0.001205,
+      "mass_weights": {
+        "N": 75.5,
+        "Ar": 1.3,
+        "O16": 23.2
+      },
+      "thermal_scattering": []
+    },
+    "lead": {
+      "density_g_cm3": 11.34,
+      "mass_weights": {
+        "Pb": 1
+      },
+      "thermal_scattering": []
+    }
+  },
+  "notes": [
+    "Fuel relative mass weights and densities supplied by the author.",
+    "Fresh compositions are uniform across all 15 axial segments.",
+    "Structural recipes are generic demonstration assumptions, not facility specifications.",
+    "Fictional inventory: 36 regular pins per fuel type; one follower per type.",
+    "No correspondence to confidential serial numbers or reference loading.",
+    "Structural carbon uses the C0 elemental evaluation and structural oxygen uses O16, matching the target ENDF/B-VII.1 library. These are explicit demonstration approximations."
+  ]
+}

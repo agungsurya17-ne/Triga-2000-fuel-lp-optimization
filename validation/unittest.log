@@ -1,0 +1,208 @@
+test_accepts_portable_unique_identifier (test_campaign_identity.CampaignIdentityTests.test_accepts_portable_unique_identifier)
+Return an unchanged identifier that is portable across supported filesystems. ... ok
+test_cli_rejects_invalid_identifier_before_optimizer_construction (test_campaign_identity.CampaignIdentityTests.test_cli_rejects_invalid_identifier_before_optimizer_construction)
+Make argparse stop on an unsafe campaign ID without constructing a campaign. ... usage: python -m unittest [-h] [--config CONFIG] [--campaign-id CAMPAIGN_ID]
+                          [--run-root RUN_ROOT]
+                          [--openmc-executable OPENMC_EXECUTABLE] [--dry-run]
+                          [--log-level {DEBUG,INFO,WARNING,ERROR}]
+python -m unittest: error: argument --campaign-id: invalid validate_campaign_id value: 'GANTI|_DENGAN_CAMPAIGN_ID_UNIK'
+ok
+test_config_loader_applies_the_same_campaign_validator (test_campaign_identity.CampaignIdentityTests.test_config_loader_applies_the_same_campaign_validator)
+Reject an unsafe configured identifier through the shared validator. ... ok
+test_rejects_placeholders_path_characters_and_reserved_names (test_campaign_identity.CampaignIdentityTests.test_rejects_placeholders_path_characters_and_reserved_names)
+Reject placeholder variants, unsafe separators, whitespace, and Windows devices. ... ok
+test_default_checkpoint_is_indented_and_loads_identically (test_checkpoint_format.RuntimeCheckpointFormatTests.test_default_checkpoint_is_indented_and_loads_identically)
+Save multiline JSON by default and recover the same parsed state. ... ok
+test_active_runtime_contract_matches_main_source (test_constraint_reporting.ConstraintReportingTests.test_active_runtime_contract_matches_main_source)
+Compare shared modules and changed checkpoint/composition methods with main implementation. ... skipped 'Sumber induk tidak tersedia dalam paket runtime mandiri.'
+test_no_feasible_means_empty_solution_csv_and_explicit_status (test_constraint_reporting.ConstraintReportingTests.test_no_feasible_means_empty_solution_csv_and_explicit_status)
+Keep internal infeasible fronts but emit no final Pareto solution or fallback. ... ok
+test_pareto_csv_is_feasible_only_and_plot_shows_full_selection_scope (test_constraint_reporting.ConstraintReportingTests.test_pareto_csv_is_feasible_only_and_plot_shows_full_selection_scope)
+Keep Pareto CSV feasible-only while plotting all eligible points and survivors. ... ok
+test_stale_fronts_or_missing_metadata_rejected_before_output (test_constraint_reporting.ConstraintReportingTests.test_stale_fronts_or_missing_metadata_rejected_before_output)
+Reject stale ordinary-Pareto membership and absent contract metadata before writing files. ... ok
+test_active_source_completed_result_requires_convergence (test_evaluation_cache.EvaluationCacheTests.test_active_source_completed_result_requires_convergence)
+Reject completed active-source results without passing convergence evidence; return None. ... ok
+test_active_source_reuses_only_completed_results_without_mutating_source (test_evaluation_cache.EvaluationCacheTests.test_active_source_reuses_only_completed_results_without_mutating_source)
+Reuse completed active-source results and skip other statuses without changing the source; return None. ... ok
+test_active_source_update_does_not_change_existing_catalog (test_evaluation_cache.EvaluationCacheTests.test_active_source_update_does_not_change_existing_catalog)
+Verify an atomic source update does not change the frozen catalog on resume; return None. ... ok
+test_catalog_resume_survives_archived_source (test_evaluation_cache.EvaluationCacheTests.test_catalog_resume_survives_archived_source)
+Verify a validated catalog remains usable after its source is archived; return None. ... ok
+test_changed_genome_is_a_cache_miss (test_evaluation_cache.EvaluationCacheTests.test_changed_genome_is_a_cache_miss)
+Require reevaluation when allele order changes despite an unchanged inventory; return None. ... ok
+test_explicit_openmc_version_pair_allows_audited_legacy_reuse (test_evaluation_cache.EvaluationCacheTests.test_explicit_openmc_version_pair_allows_audited_legacy_reuse)
+Allow only the explicitly configured directed OpenMC version transition; return None. ... ok
+test_first_source_wins_and_hit_completes_without_attempt (test_evaluation_cache.EvaluationCacheTests.test_first_source_wins_and_hit_completes_without_attempt)
+Verify first-source priority and completion on a cache hit without a transport attempt; return None. ... ok
+test_legacy_active_batch_count_must_match_exactly (test_evaluation_cache.EvaluationCacheTests.test_legacy_active_batch_count_must_match_exactly)
+Reject legacy active-batch counts below or above the exact target; return None. ... ok
+test_legacy_context_is_validated_and_openmc_mismatch_rejected (test_evaluation_cache.EvaluationCacheTests.test_legacy_context_is_validated_and_openmc_mismatch_rejected)
+Accept matching legacy context and reject a different OpenMC version; return None. ... ok
+test_transport_mismatch_cannot_fall_back_to_legacy (test_evaluation_cache.EvaluationCacheTests.test_transport_mismatch_cannot_fall_back_to_legacy)
+Reject particle and batch mismatches even with legacy fallback enabled; return None. ... ok
+test_unknown_source_phase_is_rejected (test_evaluation_cache.EvaluationCacheTests.test_unknown_source_phase_is_rejected)
+Reject source phases outside the runtime lifecycle; return None. ... ok
+test_batch_budget_ceil_and_inactive (test_final_evaluation.FinalArithmeticTests.test_batch_budget_ceil_and_inactive)
+Verify active-first scaling and ceiling at fractional budgets; return None. ... ok
+test_invalid_response (test_final_evaluation.FinalArithmeticTests.test_invalid_response)
+Reject negative, empty, or nonfinite responses; return None. ... ok
+test_sdm_boundary_and_monotonic_uncertainty (test_final_evaluation.FinalArithmeticTests.test_sdm_boundary_and_monotonic_uncertainty)
+Check exact half-dollar boundary and conservative direction; return None. ... ok
+test_unequal_volumes_and_separate_ppfs (test_final_evaluation.FinalArithmeticTests.test_unequal_volumes_and_separate_ppfs)
+Use unequal volumes and off-center peaks; return None after oracle checks. ... ok
+test_uniform_density_and_scaling (test_final_evaluation.FinalArithmeticTests.test_uniform_density_and_scaling)
+Check unit PPF at uniform density and normalization invariance; return None. ... ok
+test_one_rod_change_leaves_four_rods_out (test_final_evaluation.IndependentRodTests.test_one_rod_change_leaves_four_rods_out)
+Validate independent numeric plane states and plane-38 rounding; return None. ... ok
+test_shutdown_state_cannot_use_nominal_ppf (test_final_evaluation.IndependentRodTests.test_shutdown_state_cannot_use_nominal_ppf)
+Reject nominal tally construction for an IN rod state; return None. ... ok
+test_continues_only_generations_30_through_39_and_is_idempotent (test_generation_extension.GenerationExtensionTests.test_continues_only_generations_30_through_39_and_is_idempotent)
+Use previous survivors, finish at index 39, and make equal-target reload a no-op. ... WARNING:root:Checkpoint schema v3 dimigrasikan ke v4; backup byte-identik disimpan di /tmp/tmpm9hl9hnq/checkpoint.v3.backup.json.
+WARNING:root:Target total generasi campaign dinaikkan dari 30 menjadi 40; resume dimulai setelah generation 29.
+ok
+test_failed_migration_save_keeps_original_checkpoint (test_generation_extension.GenerationExtensionTests.test_failed_migration_save_keeps_original_checkpoint)
+Keep v3 authoritative when the post-backup atomic save fails. ... ok
+test_migrates_finished_v3_and_preserves_scientific_state (test_generation_extension.GenerationExtensionTests.test_migrates_finished_v3_and_preserves_scientific_state)
+Back up v3, reopen generation 29, and preserve prior results and RNG. ... WARNING:root:Checkpoint schema v3 dimigrasikan ke v4; backup byte-identik disimpan di /tmp/tmpcgt33lm3/checkpoint.v3.backup.json.
+WARNING:root:Target total generasi campaign dinaikkan dari 30 menjadi 40; resume dimulai setelah generation 29.
+ok
+test_rejects_other_config_change_and_conflicting_backup (test_generation_extension.GenerationExtensionTests.test_rejects_other_config_change_and_conflicting_backup)
+Fail before migration for immutable changes or a conflicting backup file. ... ok
+test_repeated_extension_and_decrease_rejection (test_generation_extension.GenerationExtensionTests.test_repeated_extension_and_decrease_rejection)
+Accept 30-to-40-to-50 increases and reject a later target decrease. ... WARNING:root:Checkpoint schema v3 dimigrasikan ke v4; backup byte-identik disimpan di /tmp/tmp24cyws3u/checkpoint.v3.backup.json.
+WARNING:root:Target total generasi campaign dinaikkan dari 30 menjadi 40; resume dimulai setelah generation 29.
+WARNING:root:Target total generasi campaign dinaikkan dari 40 menjadi 50; resume dimulai setelah generation 29.
+ok
+test_evaluates_only_checkpoint_offspring_with_success_nonconvergence_retry_and_failure (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_evaluates_only_checkpoint_offspring_with_success_nonconvergence_retry_and_failure)
+Keep parent records untouched while each fake child reaches its terminal lifecycle state. ... ok
+test_legacy_duplicate_is_blocked_before_pipeline_or_state_changes (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_legacy_duplicate_is_blocked_before_pipeline_or_state_changes)
+Reject a saved parent clone or sibling clone without builder, runner, or evaluator calls. ... ok
+test_parent_duplicate_reuses_complete_evaluation_without_transport (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_parent_duplicate_reuses_complete_evaluation_without_transport)
+Reuse a completed parent's exact result only after its saved evaluation ... ok
+test_parent_duplicate_with_context_mismatch_is_evaluated_normally (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_parent_duplicate_with_context_mismatch_is_evaluated_normally)
+Keep the duplicate offspring but run its normal evaluation when the ... ok
+test_resume_recovers_nonconsuming_interruption_without_changing_seed (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_resume_recovers_nonconsuming_interruption_without_changing_seed)
+Recover a running child to pending and reuse its seed when policy does not consume it. ... ok
+test_resume_skips_terminal_offspring_and_wrong_phase_is_rejected (test_offspring_evaluation_scheduler.OffspringEvaluationSchedulerTests.test_resume_skips_terminal_offspring_and_wrong_phase_is_rejected)
+Make the terminal boundary idempotent and fail closed before child evaluation in another phase. ... ok
+test_checkpoint_api_rejects_invalid_parent_and_round_trips (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_checkpoint_api_rejects_invalid_parent_and_round_trips)
+Reject foreign/ineligible parents and reload a valid complete batch. ... ok
+test_creation_keeps_parent_payloads_unchanged_and_child_evaluation_blocked (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_creation_keeps_parent_payloads_unchanged_and_child_evaluation_blocked)
+Preserve parent science payloads and stop before any child transport attempt. ... ok
+test_failed_save_replays_same_batch_and_rng (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_failed_save_replays_same_batch_and_rng)
+Replay an interrupted atomic batch deterministically after restoring its saved boundary. ... ok
+test_hcmx_dispatch_requires_and_uses_compatible_converged_parent_results (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_hcmx_dispatch_requires_and_uses_compatible_converged_parent_results)
+Dispatch HCMX only after both fake parent tally records pass its preflight. ... ERROR:modules.offspring_registration_scheduler:Reproduction generation=1 exhausted: attempts=3 duplicate_rejections=6 accepted=0 target=2; state/RNG rolled back.
+ok
+test_invalid_lifecycle_phase_is_rejected_without_rng_or_record_changes (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_invalid_lifecycle_phase_is_rejected_without_rng_or_record_changes)
+Fail closed before selection when parent evaluation has not been closed. ... ok
+test_noop_exhaustion_preserves_checkpoint_state_and_rng (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_noop_exhaustion_preserves_checkpoint_state_and_rng)
+Never force variation when Pc/Pm are zero; bounded retries leave no partial batch. ... ERROR:modules.offspring_registration_scheduler:Reproduction generation=1 exhausted: attempts=3 duplicate_rejections=6 accepted=0 target=2; state/RNG rolled back.
+ok
+test_noop_variation_is_rejected_and_normal_draws_repeat (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_noop_variation_is_rejected_and_normal_draws_repeat)
+Allow real no-op draws, reject clones, then accept only normally varied unique children. ... ok
+test_odd_population_creates_exact_count_from_two_deterministic_pairs (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_odd_population_creates_exact_count_from_two_deterministic_pairs)
+Keep only the first child of the final pair for an odd population. ... ok
+test_parent_duplicates_are_registered_without_resampling_when_disabled (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_parent_duplicates_are_registered_without_resampling_when_disabled)
+Accept both no-op parent clones in one reproduction draw while leaving ... ok
+test_partial_registry_fails_closed_without_regeneration (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_partial_registry_fails_closed_without_regeneration)
+Reject one durable but unlinked child before selection or RNG use. ... ok
+test_registers_complete_batch_before_evaluation_and_persists_provenance (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_registers_complete_batch_before_evaluation_and_persists_provenance)
+Create two pending offspring, linked only after both records exist. ... ok
+test_rejects_historical_and_same_batch_duplicates (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_rejects_historical_and_same_batch_duplicates)
+Exclude nonparent history and accepted siblings using ordered genome keys. ... ok
+test_resume_complete_registry_uses_no_additional_rng_or_operators (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_resume_complete_registry_uses_no_additional_rng_or_operators)
+Reuse durable offspring without selecting parents or advancing shared RNG. ... ok
+test_skipped_crossover_children_are_still_mutated (test_offspring_registration_scheduler.OffspringRegistrationSchedulerTests.test_skipped_crossover_children_are_still_mutated)
+Run mutation for both copied children when crossover probability is zero. ... ok
+test_all_1665_fuel_segments_preserve_material_bounds_volume_and_position (test_openmc_model_builder_geometry.BaselineGeometryTests.test_all_1665_fuel_segments_preserve_material_bounds_volume_and_position)
+Match fuel CSG against public geometric bounds in cm and cm³; return None. ... ok
+test_all_48_audited_differences_and_perturbations_are_aluminum (test_openmc_model_builder_geometry.BaselineGeometryTests.test_all_48_audited_differences_and_perturbations_are_aluminum)
+Check all former mismatches and 27 nearby points each; return None. ... ok
+test_geometry_change_has_a_distinct_evaluation_identity (test_openmc_model_builder_geometry.BaselineGeometryTests.test_geometry_change_has_a_distinct_evaluation_identity)
+Check base and inherited model identities distinguish corrected physics; return None. ... ok
+test_grid_material_at_all_corrected_and_control_rod_slots (test_openmc_model_builder_geometry.BaselineGeometryTests.test_grid_material_at_all_corrected_and_control_rod_slots)
+Check aluminum grid regions at all seven corrected slots and two CRs; return None. ... ok
+test_peripheral_slabs_partition_outer_universe_without_overlap (test_openmc_model_builder_geometry.BaselineGeometryTests.test_peripheral_slabs_partition_outer_universe_without_overlap)
+Check both sides of four plate planes and the water complement; return None. ... ok
+test_regular_fuel_tally_domain_is_unchanged (test_openmc_model_builder_geometry.BaselineGeometryTests.test_regular_fuel_tally_domain_is_unchanged)
+Check the historical 1620-bin regular-fuel tally contract; return None. ... ok
+test_rod_extensions_and_neighboring_materials (test_openmc_model_builder_geometry.BaselineGeometryTests.test_rod_extensions_and_neighboring_materials)
+Check all five Al annuli, adjacent water, and intact SS cladding; return None. ... ok
+test_minimization_prefers_larger_keff_at_equal_ppf_3d (test_ppf_3d_runtime.RuntimePPF3DTests.test_minimization_prefers_larger_keff_at_equal_ppf_3d)
+Confirm that minimizing negative keff prefers the larger physical keff. ... ok
+test_objective_plots_display_negative_keff (test_ppf_3d_runtime.RuntimePPF3DTests.test_objective_plots_display_negative_keff)
+Verify that objective plots use raw negative-keff values and minimization labels. ... ok
+test_ppf_3d_uses_segments_without_pin_summation (test_ppf_3d_runtime.RuntimePPF3DTests.test_ppf_3d_uses_segments_without_pin_summation)
+Distinguish a local segment peak from equal radial pin totals. ... ok
+test_reporting_rejects_radial_or_inconsistent_objectives (test_ppf_3d_runtime.RuntimePPF3DTests.test_reporting_rejects_radial_or_inconsistent_objectives)
+Fail closed for old radial metadata and mismatched objective values. ... ok
+test_reporting_uses_ppf_3d_columns_and_outputs (test_ppf_3d_runtime.RuntimePPF3DTests.test_reporting_uses_ppf_3d_columns_and_outputs)
+Generate CSV and plots whose second physical objective is PPF 3D. ... ok
+test_fresh_fuel_weights_and_no_burnup_isotopes (test_public_inputs.FreshMaterialTests.test_fresh_fuel_weights_and_no_burnup_isotopes)
+Match all axial compositions to the author's three mass-weight cards; return None. ... ok
+test_u235_mass_matches_density_volume_and_fraction (test_public_inputs.FreshMaterialTests.test_u235_mass_matches_density_volume_and_fraction)
+Check inventory U-235 in g against independently fixed regular-pin geometry; return None. ... ok
+test_equal_infeasible_violations_do_not_use_objective_ties (test_public_inputs.PublicCohortTests.test_equal_infeasible_violations_do_not_use_objective_ties)
+Retain equal-violation individuals despite different PPF objectives; return None. ... ok
+test_front_size_is_dynamic_and_constraint_is_respected (test_public_inputs.PublicCohortTests.test_front_size_is_dynamic_and_constraint_is_respected)
+Accept a two-member trade-off; exclude an attractive but infeasible point; return None. ... ok
+test_reject_changed_inputs_fixed_ids_and_stale_front (test_public_inputs.PublicCohortTests.test_reject_changed_inputs_fixed_ids_and_stale_front)
+Reject material fingerprints, fixed genes, permutations and stale selection; return None. ... ok
+test_public_nominal_reference_fixture (test_public_inputs.PublicWorkflowTests.test_public_nominal_reference_fixture)
+Build candidate and public reference models from a one-member synthetic cohort. ... ok
+test_public_sdm_preparation_and_preflight (test_public_inputs.PublicWorkflowTests.test_public_sdm_preparation_and_preflight)
+Prepare all five rod cases and verify their XML/provenance with a fake environment hash. ... Prepared 5/5 inputs; geometry checks passed.
+ok
+test_actual_model_settings_roundtrip_and_rejection (test_sdm_campaign.ArithmeticAndCohortTests.test_actual_model_settings_roundtrip_and_rejection)
+Build real candidate XML without transport; reject inactive/overwrite/trigger changes. ... skipped 'A completed public optimization checkpoint is not distributed.'
+test_all_stuck_states_and_motion (test_sdm_campaign.ArithmeticAndCohortTests.test_all_stuck_states_and_motion)
+Check five one-OUT matrices, independent offsets and three FFCR designations. ... ok
+test_cohort_and_seed_contract (test_sdm_campaign.ArithmeticAndCohortTests.test_cohort_and_seed_contract)
+Resolve a completed public front and verify five unique seeds per candidate. ... skipped 'A completed public optimization checkpoint is not distributed.'
+test_exact_formulas_signs_and_conversion (test_sdm_campaign.ArithmeticAndCohortTests.test_exact_formulas_signs_and_conversion)
+Verify rho, reciprocal-k SDM, conservative sigma and negative supercritical values. ... ok
+test_changed_input_is_rejected_before_launch (test_sdm_campaign.SyntheticExecutionTests.test_changed_input_is_rejected_before_launch)
+Refuse altered prepared XML before creating an attempt or calling subprocess. ... ok
+test_dry_run_cannot_launch (test_sdm_campaign.SyntheticExecutionTests.test_dry_run_cannot_launch)
+Assert run/resume dry-run plans do not invoke the transport executor. ... {"dry_run": true, "transport_launched": false, "actions": {"launch": 5, "skip_verified": 0, "recover_completed": 0, "retry": 0, "blocked_explicit_retry_required": 0}}
+{"dry_run": true, "transport_launched": false, "actions": {"launch": 5, "skip_verified": 0, "recover_completed": 0, "retry": 0, "blocked_explicit_retry_required": 0}}
+ok
+test_exclusive_lock_and_atomic_json (test_sdm_campaign.SyntheticExecutionTests.test_exclusive_lock_and_atomic_json)
+Reject a concurrent holder and preserve last complete JSON on serialization failure. ... ok
+test_failed_attempt_explicit_retry_preserves_log (test_sdm_campaign.SyntheticExecutionTests.test_failed_attempt_explicit_retry_preserves_log)
+Retain failed attempt 001, block implicit retry, then create new attempt 002. ... ok
+test_incomplete_precision_and_manual_review_are_separate (test_sdm_campaign.SyntheticExecutionTests.test_incomplete_precision_and_manual_review_are_separate)
+Keep conditional numeric pass when sigma is large, and never pass partial cohorts. ... ok
+test_missing_entropy_preserves_valid_conditional_sdm (test_sdm_campaign.SyntheticExecutionTests.test_missing_entropy_preserves_valid_conditional_sdm)
+Keep combined-keff SDM when entropy is absent, flagging diagnostics incomplete. ... ok
+test_reject_reuse_candidate_seed_config_and_input_mismatch (test_sdm_campaign.SyntheticExecutionTests.test_reject_reuse_candidate_seed_config_and_input_mismatch)
+Reject reuse of completed outputs after candidate, seed, transport or input changes. ... ok
+test_serial_launch_resume_skips_and_preserves_all_files (test_sdm_campaign.SyntheticExecutionTests.test_serial_launch_resume_skips_and_preserves_all_files)
+Mock five sequential launches then resume; verify every completed file is preserved. ... START TEST STUCK-D2 seed=926102001
+FINISH TEST STUCK-D2
+START TEST STUCK-D5 seed=926102002
+FINISH TEST STUCK-D5
+START TEST STUCK-D9 seed=926102003
+FINISH TEST STUCK-D9
+START TEST STUCK-D13 seed=926102004
+FINISH TEST STUCK-D13
+START TEST STUCK-D16 seed=926102005
+FINISH TEST STUCK-D16
+ok
+test_configured_threads_and_geometry_debug_reach_runner (test_transport_configuration.RuntimeTransportConfigurationTests.test_configured_threads_and_geometry_debug_reach_runner)
+Compose a temporary campaign and verify explicit runner settings. ... ok
+test_duplicate_offspring_boolean_validation_and_injection (test_transport_configuration.RuntimeTransportConfigurationTests.test_duplicate_offspring_boolean_validation_and_injection)
+Validate true/false values, reject an invalid token, and verify that ... ok
+test_evaluation_cache_multiline_sources_and_duplicate_rejection (test_transport_configuration.RuntimeTransportConfigurationTests.test_evaluation_cache_multiline_sources_and_duplicate_rejection)
+Parse explicit source priority without scanning the results directory. ... ok
+test_openmc_cache_version_policy_is_not_a_physics_input (test_transport_configuration.RuntimeTransportConfigurationTests.test_openmc_cache_version_policy_is_not_a_physics_input)
+Verify cache version allowlist changes preserve the scientific input fingerprint; return None. ... ok
+test_reproduction_limit_validation_and_injection (test_transport_configuration.RuntimeTransportConfigurationTests.test_reproduction_limit_validation_and_injection)
+Validate optional pair-attempt limits and inject a custom value without transport; return None. ... ok
+
+----------------------------------------------------------------------
+Ran 88 tests in 17.295s
+
+OK (skipped=3)

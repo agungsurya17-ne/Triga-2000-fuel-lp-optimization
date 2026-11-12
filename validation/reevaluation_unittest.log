@@ -1,0 +1,30 @@
+test_atomic_rollback_and_numpy (test_pipeline.ArithmeticTests.test_atomic_rollback_and_numpy)
+Check failed write retains old content and NumPy results serialize; return None. ... ok
+test_classification_exact_and_weak_ties (test_pipeline.ArithmeticTests.test_classification_exact_and_weak_ties)
+Verify all five classes plus unrounded and equal-objective boundaries; return None. ... ok
+test_invalid_scores_and_volumes (test_pipeline.ArithmeticTests.test_invalid_scores_and_volumes)
+Reject nonfinite/negative/empty Q or nonpositive V; return None. ... ok
+test_unequal_volumes (test_pipeline.ArithmeticTests.test_unequal_volumes)
+Check unequal-volume 2-element/2-layer oracle; return None. ... ok
+test_uniform_density_and_scale (test_pipeline.ArithmeticTests.test_uniform_density_and_scale)
+Check PPF=1 for uniform density and scale invariance; return None. ... ok
+test_actual_historical_response_values (test_pipeline.GeometryTests.test_actual_historical_response_values)
+Reproduce stored candidate PPFs on its identical normalized segment Q; return None. ... skipped 'A completed public optimizer checkpoint is not distributed.'
+test_cohort_and_reference (test_pipeline.GeometryTests.test_cohort_and_reference)
+Verify the public final-front membership and reference fixture; return None. ... skipped 'A completed public optimizer checkpoint is not distributed.'
+test_common_model_loading_only (test_pipeline.GeometryTests.test_common_model_loading_only)
+Verify model equality beyond seed/loading against reference; return None. ... skipped 'A completed public optimizer checkpoint is not distributed.'
+test_corrupt_identity_rejected (test_pipeline.GeometryTests.test_corrupt_identity_rejected)
+Reject swapped axial/material identities and duplicate cells; return None. ... ok
+test_domain_identity_and_volume (test_pipeline.GeometryTests.test_domain_identity_and_volume)
+Verify actual regular/follower counts and analytic volumes; return None. ... ok
+test_historical_regular_ppfs (test_pipeline.GeometryTests.test_historical_regular_ppfs)
+Compare all three regular PPFs to the actual historical implementation on identical Q; return None. ... ok
+test_nominal_budget_and_disabled_diagnostics (test_pipeline.GeometryTests.test_nominal_budget_and_disabled_diagnostics)
+Reject changed budget, trigger and entropy settings; return None. ... ok
+setUpClass (test_pipeline.SmokeArtifactTests) ... skipped 'Run --smoke-test before artifact tests.'
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.818s
+
+OK (skipped=4)

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this code when using it in your work."
+type: software
+title: "TRIGA 2000 fuel-loading optimization with NSGA-II and OpenMC: public fresh-fuel demonstration"
+authors:
+  - family-names: "Anak Agung Gde Surya Ananda Putra"
+version: 1.1.0
+repository-code: "https://github.com/agungsurya17-ne/Triga-2000-fuel-lp-optimization"
+date-released: 2026-11-13
+abstract: "TRIGA 2000 fuel-loading optimization with NSGA-II and OpenMC, using fictional fresh-fuel inputs, with nominal reevaluation and shutdown-margin routines; confidential thesis data are excluded."
+keywords:
+  - reactor physics
+  - fuel management
+  - TRIGA 2000
+  - OpenMC
+  - NSGA-II
+  - shutdown margin
+  - uncertainty

@@ -1,0 +1,11 @@
+{
+  "python_files": 65,
+  "functions_with_docstrings": 667,
+  "missing_docstrings": 0,
+  "possible_indonesian_inline_comments": 0,
+  "original_serial_text_matches": 0,
+  "scope": "AST/docstring check, inline-comment language heuristic, and private comparison against original serials; working tree only.",
+  "private_materials_replaced": "Fuel materials generated exclusively from author-provided public fresh-fuel cards; generic structural recipes documented separately.",
+  "geometry_version": "triga2000_openmc_model/v2",
+  "neutron_transport_launched": false
+}

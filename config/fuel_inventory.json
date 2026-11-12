@@ -1,0 +1,653 @@
+{
+  "units": "g",
+  "fuels": {
+    "900001": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900002": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900003": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900004": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900005": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900006": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900007": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900008": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900009": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900010": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900011": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900012": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900013": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900014": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900015": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900016": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900017": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900018": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900019": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900020": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900021": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900022": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900023": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900024": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900025": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900026": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900027": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900028": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900029": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900030": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900031": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900032": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900033": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900034": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900035": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900036": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M8",
+      "u_235_fresh": 38.00002254035408,
+      "u_235_current": 38.00002254035408
+    },
+    "900037": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900038": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900039": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900040": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900041": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900042": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900043": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900044": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900045": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900046": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900047": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900048": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900049": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900050": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900051": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900052": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900053": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900054": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900055": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900056": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900057": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900058": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900059": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900060": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900061": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900062": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900063": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900064": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900065": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900066": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900067": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900068": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900069": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900070": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900071": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900072": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M9",
+      "u_235_fresh": 55.00002860269203,
+      "u_235_current": 55.00002860269203
+    },
+    "900073": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900074": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900075": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900076": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900077": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900078": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900079": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900080": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900081": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900082": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900083": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900084": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900085": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900086": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900087": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900088": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900089": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900090": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900091": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900092": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900093": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900094": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900095": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900096": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900097": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900098": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900099": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900100": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900101": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900102": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900103": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900104": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900105": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900106": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900107": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    },
+    "900108": {
+      "fuel_type": "fuel",
+      "public_fuel_type": "M10",
+      "u_235_fresh": 98.99999217859724,
+      "u_235_current": 98.99999217859724
+    }
+  }
+}

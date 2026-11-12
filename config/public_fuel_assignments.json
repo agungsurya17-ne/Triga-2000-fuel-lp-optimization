@@ -1,0 +1,446 @@
+{
+  "fuel_900001": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900002": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900003": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900004": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900005": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900006": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900007": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900008": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900009": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900010": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900011": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900012": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900013": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900014": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900015": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900016": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900017": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900018": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900019": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900020": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900021": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900022": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900023": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900024": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900025": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900026": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900027": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900028": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900029": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900030": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900031": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900032": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900033": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900034": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900035": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900036": {
+    "fuel_type": "M8",
+    "role": "regular"
+  },
+  "fuel_900037": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900038": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900039": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900040": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900041": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900042": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900043": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900044": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900045": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900046": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900047": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900048": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900049": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900050": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900051": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900052": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900053": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900054": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900055": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900056": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900057": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900058": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900059": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900060": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900061": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900062": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900063": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900064": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900065": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900066": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900067": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900068": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900069": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900070": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900071": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900072": {
+    "fuel_type": "M9",
+    "role": "regular"
+  },
+  "fuel_900073": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900074": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900075": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900076": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900077": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900078": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900079": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900080": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900081": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900082": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900083": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900084": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900085": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900086": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900087": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900088": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900089": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900090": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900091": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900092": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900093": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900094": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900095": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900096": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900097": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900098": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900099": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900100": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900101": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900102": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900103": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900104": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900105": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900106": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900107": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900108": {
+    "fuel_type": "M10",
+    "role": "regular"
+  },
+  "fuel_900109": {
+    "fuel_type": "M8",
+    "role": "ffcr"
+  },
+  "fuel_900110": {
+    "fuel_type": "M9",
+    "role": "ffcr"
+  },
+  "fuel_900111": {
+    "fuel_type": "M10",
+    "role": "ffcr"
+  }
+}

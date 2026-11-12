@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-13",
+  "dataset": "public-fresh-fuel/v1",
+  "generator_byte_reproducible": true,
+  "generated": {
+    "materials": 1675,
+    "regular_pins": 108,
+    "followers": 3
+  },
+  "local_setup_tested_in_temporary_copy": true,
+  "preflight": {
+    "status": "passed",
+    "transport_enabled": false,
+    "transport_call_count": 0,
+    "optimizer_generation_count": 0,
+    "genome": {
+      "fixed_mapping_valid": true,
+      "fixed_positions": 19,
+      "mutable_genes": 108,
+      "physical_positions": 127,
+      "round_trip_valid": true
+    },
+    "objectives": [
+      "-keff",
+      "ppf_3d"
+    ],
+    "import_independence": true
+  },
+  "reference_model_export": {
+    "model_version": "triga2000_openmc_model/v2",
+    "physical_positions": 127,
+    "regular_fuel_segments": 1620,
+    "transport_launched": false,
+    "purpose": "Public fresh-fuel geometry export; no transport results."
+  },
+  "sdm_environment": {
+    "api_version": "0.15.3",
+    "used_nuclear_data_files": 97,
+    "linked_libraries": 67
+  },
+  "nuclear_index_coverage": {
+    "required_names": 50,
+    "missing": []
+  },
+  "neutron_transport_launched": false,
+  "limitations": [
+    "No completed demonstration optimization or converged physics results.",
+    "SDM beta_eff is illustrative; no independent MCNP validation of demo materials."
+  ]
+}

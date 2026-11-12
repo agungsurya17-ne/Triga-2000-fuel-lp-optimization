@@ -1,0 +1,15 @@
+name: ta-nsga2-openmc
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.13.13
+  - openmc=0.15.3
+  - numpy=2.4.3
+  - scipy=1.17.1
+  - matplotlib=3.10.9
+  - h5py=3.16.0
+  - pandas=3.0.2
+  - lxml=6.1.0
+  - uncertainties=3.2.3
+  - openpyxl=3.1.5

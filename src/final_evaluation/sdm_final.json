@@ -1,0 +1,35 @@
+{
+  "python": "python",
+  "executable": "openmc",
+  "openmc_version": "0.15.3",
+  "materials": "config/materials.xml",
+  "transport": {
+    "particles": 100000,
+    "inactive": 45,
+    "active": 155,
+    "batches": 200,
+    "generations_per_batch": 1,
+    "trigger": false,
+    "threads": 32,
+    "parallel_cases": 1
+  },
+  "source_snapshots": [
+    25,
+    45,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200
+  ],
+  "seed_base": 926102001,
+  "beta_eff": 0.007294,
+  "z": 1.645,
+  "sdm_min_dollar": 0.5,
+  "sigma_target": 0.0003,
+  "temperature_K": 300.0,
+  "checkpoint": "results/TRIGA2000_PUBLIC_FRESH_DEMO/checkpoint.json",
+  "beta_note": "Illustrative fixed beta_eff for methodology demonstration; not computed for this fresh core."
+}
